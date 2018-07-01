@@ -1,5 +1,9 @@
 .episode {
-  padding: 1rem;
+  border-radius: 35px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1), 2px 2px 4px 0 rgba(0, 0, 0, 0.1);;
+  margin: 3rem auto;
+  max-width: 1500px;
+  padding: 3rem;
 }
 
 .episode:nth-child(even) {
