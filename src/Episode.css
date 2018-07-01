@@ -1,0 +1,14 @@
+.episode {
+  padding: 1rem;
+}
+
+.episode:nth-child(even) {
+  background-color: rgba(166, 64, 225, 0.5);
+}
+.episode:nth-child(odd) {
+  background-color: rgba(160, 204, 51, 0.5);
+}
+
+.episode__title {
+  padding: 1rem;
+}
