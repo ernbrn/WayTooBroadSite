@@ -6,24 +6,24 @@
   padding: 3rem;
 }
 
-.episode:nth-child(5n-7) {
+.episode:nth-last-child(5n-7) {
   background-color: rgba(160, 204, 51, 0.5);
 }
 
-.episode:nth-child(5n-6) {
-  background-color: rgba(166, 64, 225, 0.5);
+.episode:nth-last-child(5n-6) {
+  background-color: rgba(254, 195, 10, 0.5);
 }
 
-.episode:nth-child(5n-5) {
-  background-color: rgba(251, 67, 73, 0.5);
-}
-
-.episode:nth-child(5n-4) {
+.episode:nth-last-child(5n-5) {
   background-color: rgba(59, 210, 255, 0.5);
 }
 
-.episode:nth-child(5n-3) {
-  background-color: rgba(254, 195, 10, 0.5);
+.episode:nth-last-child(5n-4) {
+  background-color: rgba(251, 67, 73, 0.5);
+}
+
+.episode:nth-last-child(5n-3) {
+  background-color: rgba(166, 64, 225, 0.5);
 }
 
 .episode__title {
