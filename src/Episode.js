@@ -4,8 +4,8 @@ import './Episode.css';
 export default function Episode({ episode }) {
   return (
     <div className="episode">
-      <div className="episode__title"><b>Title: </b>{episode.title}</div>
-      <div><b>Description: </b>{episode.contentSnippet}</div>
+      <div className="episode__title">{episode.title}</div>
+      <div dangerouslySetInnerHTML={{ __html: episode.content }} />
     </div>
   )
 };
