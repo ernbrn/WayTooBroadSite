@@ -15,7 +15,20 @@ export default function TopicIndex({ episodes }) {
       ))
     }
     return null;
-  }).filter(ob => ob));
+  }).filter(ob => ob)).sort((a, b) => {
+    const topicA = a.topic.toUpperCase().trim();
+    const topicB = b.topic.toUpperCase().trim();
+
+    if (topicA < topicB) {
+      return -1;
+    }
+
+    if (topicA > topicB) {
+      return 1;
+    }
+
+    return 0;
+  });
 
   return (
     <div>
@@ -26,11 +39,11 @@ export default function TopicIndex({ episodes }) {
 
       <Nav />
 
-      <div>
+      <div className="topics">
         {
           topics.map((topicOb, index) => (
-            <div key={index}>
-              <Link className="link" to={`/#${topicOb.episodeNumber}`}>{topicOb.topic}</Link>
+            <div className="topics__item">
+              <Link key={index} className="link" to={`/#${topicOb.episodeNumber}`}>{topicOb.topic}</Link>
             </div>
           ))
         }

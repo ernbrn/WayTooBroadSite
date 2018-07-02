@@ -5,3 +5,19 @@
 .link:visited {
   color: rgb(83, 83, 83);
 }
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.topics {
+  column-count: 2;
+  margin: auto;
+  margin-bottom: 3rem;
+  text-align: left;
+  width: 605px;
+}
+
+.topics__item {
+  margin: 1rem;
+}
