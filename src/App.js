@@ -1,37 +1,38 @@
 import React, { Component } from 'react';
+import { Switch, Route } from 'react-router'
 import parser from 'rss-parser-browser';
-import Episode from './Episode';
+import Episodes from './Episodes';
+import About from './About';
+import TopicIndex from './TopicIndex';
 import './App.css';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      feed: {}
+      episodes: []
     };
   }
+
   componentDidMount() {
-    parser.parseURL('https://waytoobroad.libsyn.com/rss', (_err, feed) => this.setState({ feed: feed.feed }));
+    parser.parseURL('https://waytoobroad.libsyn.com/rss', (_err, feed) => {
+      console.log(feed.feed);
+      this.setState({ episodes: feed.feed.entries });
+    });
   }
 
   render() {
-    console.log(this.state.feed);
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to Way Too Broad!</h1>
-        </header>
-        <p className="App-intro">
-          A place for friends to talk about things that they're really really ridiculously excited about
-        </p>
-
-        {
-          this.state.feed.entries && this.state.feed.entries.map(episode => (
-            <Episode key={episode.guid} episode={episode} />
-          ))
-        }
-      </div>
-    );
+      <Switch>
+        <Route exact path='/' render={_props => (
+          <Episodes episodes={this.state.episodes} />
+        )} />
+        <Route exact path='/about' component={About} />
+        <Route exact path='/index' render={_props => (
+          <TopicIndex episodes={this.state.episodes} />
+        )} />
+      </Switch>
+    )
   }
 }
 
