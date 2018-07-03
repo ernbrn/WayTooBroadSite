@@ -1,9 +1,27 @@
+.audio-player {
+  margin-bottom: 2rem;
+}
+
 .episode {
   border-radius: 35px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1), 2px 2px 4px 0 rgba(0, 0, 0, 0.1);;
+  line-height: 30px;
   margin: 3rem auto;
-  max-width: 1500px;
+  max-width: 675px;
   padding: 3rem;
+}
+
+.episode__info {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.episode__description {
+  text-align: left;
+}
+
+.episode__description p:first-of-type {
+  margin-top: 0;
 }
 
 .episode:nth-last-child(5n-7) {
@@ -28,5 +46,6 @@
 
 .episode__title {
   font-weight: 700;
-  padding: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
 }

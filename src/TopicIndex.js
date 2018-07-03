@@ -8,7 +8,7 @@ export default function TopicIndex({ episodes }) {
   const topics = [].concat.apply([], episodes.map((ep) => {
     const subtitle = ep.itunes.subtitle;
     const topicsString = 'Topics: ';
-    if (subtitle.includes(topicsString)) {
+    if (subtitle.includes(topicsString) && ep.enclosure) {
       const episodeNumber = getEpisodeNumberFromTitle(ep.title);
       return subtitle.split(topicsString)[1].split(', ').map(topic => (
         { topic, episodeNumber }

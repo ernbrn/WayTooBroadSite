@@ -1,8 +1,9 @@
 .nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 5rem;
+  justify-content: space-around;
+  margin: 5rem auto;
+  max-width: 700px;
 }
 
 .nav-link__button {
@@ -13,7 +14,6 @@
   display: flex;
   height: 3rem;
   justify-content: center;
-  margin-right: 5rem;
   width: 10rem;
 }
 

@@ -25,7 +25,7 @@ class Episodes extends Component {
         <Nav />
         {
           episodes && episodes.map(episode => (
-            <Episode key={episode.guid} episode={episode} />
+            episode.enclosure && <Episode key={episode.guid} episode={episode} />
           ))
         }
       </div>
