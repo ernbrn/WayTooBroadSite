@@ -1,0 +1,16 @@
+.qa {
+  text-align: left;
+  flex-basis: 60%;
+}
+
+.qa__q {
+  color: #aaa;
+  font-weight: 600;
+}
+
+.name {
+  font-size: 3.25rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+}
