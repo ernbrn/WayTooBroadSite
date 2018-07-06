@@ -1,9 +1,8 @@
+/* small screens */
 .nav {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 5rem auto;
-  max-width: 700px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nav-link__button {
@@ -15,7 +14,21 @@
   height: 3rem;
   justify-content: center;
   width: 10rem;
+  margin-bottom: 1rem;
 }
+
+/* large screens */
+@media (min-width: 768px) {
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5rem auto;
+    max-width: 700px;
+  }
+}
+
 
 .nav-link__button:hover {
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1), 2px 2px 4px 0 rgba(0, 0, 0, 0.1);;

@@ -6,9 +6,15 @@ body {
 
 h1 {
   color: rgb(83, 83, 83);
-  font-size: 5em;
+  font-size: 3rem;
   padding: 20px;
-  margin: 3rem 0;
+  margin: 3rem 0 1rem 0;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 5em;
+    margin: 3rem 0;
+  }
 }
 
 h2 {

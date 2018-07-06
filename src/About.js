@@ -5,6 +5,7 @@ import ben from './ben.png';
 import erin from './erin.PNG';
 import hannah from './hannah.jpg';
 import QAndA from './QAndA';
+import Subheader from './Subheader';
 import './About.css';
 
 export default function About() {
@@ -13,7 +14,8 @@ export default function About() {
       <header>
         <h1>About Us</h1>
       </header>
-      <h2>A new era that spreads each small wing and can not be reached with one small wing</h2>
+      <Subheader text='A new era that spreads each small wing and can not be reached with one small wing' />
+      <h2></h2>
       <Nav />
       <div className="bio">
         <div className="container">

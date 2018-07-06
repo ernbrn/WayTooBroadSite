@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Episode from './Episode';
 import Nav from './Nav';
+import Subheader from './Subheader';
 
 class Episodes extends Component {
   constructor(props) {
@@ -19,9 +20,7 @@ class Episodes extends Component {
         <header>
           <h1>Welcome to Way Too Broad!</h1>
         </header>
-        <h2>
-          A place for friends to talk about things that they're really really ridiculously excited about
-        </h2>
+        <Subheader text="A place for friends to talk about things that they're really really ridiculously excited about" />
         <Nav />
         {
           episodes && episodes.map(episode => (

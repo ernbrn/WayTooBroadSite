@@ -1,5 +1,6 @@
 .audio-player {
   margin-bottom: 2rem;
+  width: 240px;
 }
 
 .episode {
@@ -7,8 +8,17 @@
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1), 2px 2px 4px 0 rgba(0, 0, 0, 0.1);;
   line-height: 30px;
   margin: 3rem auto;
-  max-width: 675px;
+  max-width: 215px;
   padding: 3rem;
+}
+@media (min-width: 768px) {
+  .episode {
+    max-width: 675px;
+  }
+
+  .audio-player {
+    width: 400px;
+  }
 }
 
 .episode__info {
