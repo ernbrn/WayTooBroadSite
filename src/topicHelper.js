@@ -1,6 +1,7 @@
-import { getEpisodeNumberFromTitle } from './helpers';
+import { getEpisodeNumberFromTitle, getFirstLetter } from './titleHelper';
 
 export function orderedTopicsWithEpisodes(episodes, order = 'asc') {
+  const ob = {};
   return [].concat.apply([], episodes.map((ep) => {
     const subtitle = ep.itunes.subtitle;
     const topicsString = 'Topics: ';
@@ -25,5 +26,21 @@ export function orderedTopicsWithEpisodes(episodes, order = 'asc') {
 
     return 0;
   });
+}
 
+export function orderedTopicsByLetter(episodes, order = 'asc') {
+  const ob = {};
+  orderedTopicsWithEpisodes(episodes, order).forEach((topicOb) => {
+    const firstLetter = topicOb.topic.trim()[0];
+    if (!ob[firstLetter]) {
+      ob[firstLetter] = []
+    }
+    ob[firstLetter].push(topicOb)
+  });
+
+  return ob;
+}
+
+export function topicCount(episodes) {
+  return orderedTopicsWithEpisodes(episodes).length;
 }

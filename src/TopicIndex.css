@@ -12,11 +12,10 @@
 }
 
 .topics {
-  column-count: 2;
-  margin: auto;
+  margin-left: 18%;
   margin-bottom: 3rem;
   text-align: left;
-  width: 605px;
+  width: 240px;
 }
 
 .topics__item {
@@ -27,9 +26,25 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  font-size: 32px;
-  height: 125px;
   justify-content: space-between;
+  height: 125px;
+}
+
+.alphabet-search {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 1rem;
+}
+
+.alphabet-search__link {
+  margin-right: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.sort{
+  font-size: 32px;
   margin: 3rem 0;
 }
 
@@ -49,9 +64,21 @@
 
 /* large screens */
 @media (min-width: 768px) {
-  .order {
-    width: 10%;
+  .alphabet-search {
+    flex-direction: column;
+    height: 534px;
+    justify-content: flex-start;
+  }
+  .sort {
+    display: flex;
+    align-items: center;
     position: fixed;
-    align-items: flex-end;
+    justify-content: space-around;
+    width: 30%;
+    bottom: 40px;
+  }
+
+  .topics {
+    margin-left: 45%;
   }
 }

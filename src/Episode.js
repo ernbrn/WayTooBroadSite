@@ -1,6 +1,6 @@
 import React from 'react';
 import './Episode.css';
-import { getEpisodeNumberFromTitle } from './helpers';
+import { getEpisodeNumberFromTitle } from './titleHelper';
 
 export default function Episode({ episode }) {
   return (
