@@ -1,3 +1,4 @@
+/* small screens */
 .link {
   color: rgb(83, 83, 83);
   text-decoration: none;
@@ -44,4 +45,13 @@
 
 .order__button--selected {
   color: rgba(59, 210, 255, 0.5);
+}
+
+/* large screens */
+@media (min-width: 768px) {
+  .order {
+    width: 10%;
+    position: fixed;
+    align-items: flex-end;
+  }
 }
