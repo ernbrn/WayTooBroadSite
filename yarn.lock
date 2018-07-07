@@ -5959,9 +5959,9 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rss-parser-browser@^2.2.2:
+"rss-parser-browser@https://github.com/ernbrn/rss-parser-browser":
   version "2.2.2"
-  resolved "https://registry.yarnpkg.com/rss-parser-browser/-/rss-parser-browser-2.2.2.tgz#f0fd2fc9c0bcb6304985fd7f8bfeea7a06d73a9d"
+  resolved "https://github.com/ernbrn/rss-parser-browser#11c8ba372939a9fd55655aaeab79d6bab7ecf766"
   dependencies:
     entities "^1.1.1"
     xml2js "^0.4.17"

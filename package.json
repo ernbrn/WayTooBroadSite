@@ -8,7 +8,7 @@
     "react-router-dom": "^4.3.1",
     "react-router-hash-link": "^1.2.0",
     "react-scripts": "1.1.4",
-    "rss-parser-browser": "^2.2.2"
+    "rss-parser-browser": "https://github.com/ernbrn/rss-parser-browser"
   },
   "scripts": {
     "start": "react-scripts start",
