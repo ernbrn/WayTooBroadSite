@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Episode from './Episode';
 import Nav from './Nav';
+import Header from './Header';
 import Subheader from './Subheader';
 
 class Episodes extends Component {
@@ -18,7 +19,7 @@ class Episodes extends Component {
     return (
       <div>
         <header>
-          <h1>Welcome to Way Too Broad!</h1>
+          <Header text="Welcome to Way Too Broad!" />
         </header>
         <Subheader text="A place for friends to talk about things that they're really really ridiculously excited about" />
         <Nav />

@@ -5,6 +5,7 @@ import ben from './ben.png';
 import erin from './erin.PNG';
 import hannah from './hannah.jpg';
 import QAndA from './QAndA';
+import Header from './Header';
 import Subheader from './Subheader';
 import './About.css';
 
@@ -12,7 +13,7 @@ export default function About() {
   return (
     <div>
       <header>
-        <h1>About Us</h1>
+        <Header text="About Us" />
       </header>
       <Subheader text='A new era that spreads each small wing and can not be reached with one small wing' />
       <h2></h2>
