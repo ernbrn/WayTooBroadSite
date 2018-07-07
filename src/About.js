@@ -55,16 +55,16 @@ const hannahAnswers = {
 
 const benAnswers = {
   person: 'BEN',
-  instruments: '',
-  musicians: '',
-  movie: '',
-  book: '',
-  endOfLife: '',
-  tongue: '',
-  love: '',
-  onga: '',
-  whatAreYouDoing: '',
-  aWord: ''
+  instruments: 'Guitar, piano, formerly french horn and trumpet',
+  musicians: 'Ben Folds, Guster, Lin-Manuel Miranda',
+  movie: 'MY important movie Lord of the Rings: Return of the King',
+  book: `THE important book is either Island by Aldous Huxley or Kafka on the Shore by Haruki Murakami`,
+  endOfLife: 'A real good turkey club',
+  tongue: 'I would imagine anything that\'s not beef tongue',
+  love: 'Komo, kind of Kylie',
+  onga: 'WHY, ONGA??',
+  whatAreYouDoing: 'Nothing, don\'t try to fucking trick me',
+  aWord: 'Omelet (occasionally)'
 };
 
 const erinAnswers = {

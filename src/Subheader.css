@@ -1,4 +1,11 @@
+/* small screens */
 .subheader {
   padding: 1rem;
-  padding-top: 0;
+}
+
+/* large screens */
+@media (min-width: 768px) {
+  .subheader {
+    padding: 0;
+  }
 }

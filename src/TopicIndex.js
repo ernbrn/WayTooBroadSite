@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import Nav from './Nav';
+import Subheader from './Subheader';
 import { getEpisodeNumberFromTitle } from './helpers';
 import './TopicIndex.css';
 
@@ -35,8 +36,7 @@ export default function TopicIndex({ episodes }) {
       <header>
         <h1>Topic Index</h1>
       </header>
-      <h2>We've talked about <span>{topics.length}</span> things!</h2>
-
+      <Subheader text={`We've talked about ${topics.length} things!`} />
       <Nav />
 
       <div className="topics">

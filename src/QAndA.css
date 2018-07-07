@@ -1,6 +1,8 @@
+/* small screens */
 .qa {
+  flex-basis: 85%;
+  margin-top: 2rem;
   text-align: left;
-  flex-basis: 60%;
 }
 
 .qa__q {
@@ -13,4 +15,17 @@
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
+  text-align: center;
+}
+
+/* large screens */
+@media (min-width: 768px) {
+  .qa {
+    flex-basis: 60%;
+    margin-top: 0;
+  }
+
+  .name {
+    text-align: left;
+  }
 }

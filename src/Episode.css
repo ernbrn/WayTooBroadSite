@@ -11,6 +11,7 @@
   max-width: 215px;
   padding: 3rem;
 }
+
 @media (min-width: 768px) {
   .episode {
     max-width: 675px;

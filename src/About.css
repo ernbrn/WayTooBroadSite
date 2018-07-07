@@ -1,3 +1,4 @@
+/* small screens */
 .bio {
   align-items: center;
   display: flex;
@@ -7,6 +8,7 @@
 .bio__section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 3rem;
 }
 
@@ -15,10 +17,19 @@
 }
 
 .pic {
-  margin-right: 70px;
   width: 325px;
 }
 
 .footer {
-  padding-bottom: 3rem;
+  padding: 0 1rem 3rem 1rem;
+}
+
+/* large screens */
+@media (min-width: 768px) {
+  .footer {
+    padding-bottom: 3rem;
+  }
+  .pic {
+    margin-right: 70px;
+  }
 }
