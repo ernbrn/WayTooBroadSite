@@ -1,14 +1,9 @@
 /* small screens */
 .link {
   color: rgb(83, 83, 83);
-  text-decoration: none;
 }
 .link:visited {
   color: rgb(83, 83, 83);
-}
-
-.link:hover {
-  text-decoration: underline;
 }
 
 .topics {
@@ -38,9 +33,14 @@
 }
 
 .alphabet-search__link {
+  color: rgb(83, 83, 83);
   margin-right: 1rem;
-  text-decoration: none;
   font-weight: 600;
+  text-decoration: none;
+}
+
+.alphabet-search__link:hover {
+  text-decoration: underline;
 }
 
 .sort{
@@ -59,23 +59,28 @@
 }
 
 .order__button--selected {
-  color: rgba(59, 210, 255, 0.5);
+  color: rgba(145, 228, 255);
 }
 
 /* large screens */
-@media (min-width: 768px) {
+@media (min-width: 1105px) {
   .alphabet-search {
     flex-direction: column;
     height: 534px;
+    width: 130px;
     justify-content: flex-start;
   }
+
   .sort {
-    display: flex;
+    background-color: rgba(254, 195, 10, 0.5);
+    height: 100%;
     align-items: center;
+    flex-direction: column;
+    display: flex;
     position: fixed;
     justify-content: space-around;
-    width: 30%;
-    bottom: 40px;
+    width: 240px;
+    bottom: -47px;
   }
 
   .topics {
