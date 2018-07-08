@@ -16,7 +16,6 @@ export default function About() {
         <Header text="About Us" />
       </header>
       <Subheader text='A new era that spreads each small wing and can not be reached with one small wing' />
-      <h2></h2>
       <Nav />
       <div className="bio">
         <div className="container">
@@ -33,6 +32,30 @@ export default function About() {
             <QAndA answers={erinAnswers} />
           </div>
 
+        </div>
+      </div>
+      <hr />
+      <div className="aboutWTBContainer">
+        <h2><b>WHAT IS WAY TOO BROAD?</b></h2>
+        <div className="whatIsWTB">
+          <p>
+            Way Too Broad began in the Spring of 1988 with the birth of your first co-host, Erin.
+            She was a happy, healthy baby, but she was a little bit lonely.
+            Fortunately, your second co-host Hannah was coming hot on her heels, gracing the world with her presence in the Summer of 1988.
+            Hannah, too, needed a playmate. Fortunately, Erin and Hannah’s parents knew each other because their dads were brothers.
+            From the first time Erin and Hannah met (in a crib, probably, them both still being newborns) they just knew (presumably) that they would be friends forever!
+          </p>
+          <p>
+            As Erin and Hannah continued being friends and growing up, they both eventually gained +2 siblings!
+            Lucky them! One of Hannah’s siblings was a really grumpy baby named Ben who hated it when she kissed his cheeks all the time.
+            Eventually, though, he miraculously grew a sense of humor about stuff and became a fun person/your third co-host.
+          </p>
+          <p>
+            Your three co-hosts-to-be all grew into adults living in different parts of the United States, but they always saw each other at least once a year at Thanksgiving.
+            One year, they stayed up into the wee hours of the night trying to catch each other up on ALL of the fun interests and observations they had gathered throughout the whole year, but they just didn’t have enough time to get to it all!
+            So they decided that instead of saving up all of their fun new discoveries for when they saw each other, they would meet once a week and TELL THE WORLD about all of
+            their interests, even the weird ones they don’t even remember they talked about, like, 2 weeks later. And now that’s what they do and they also made a website for it!
+          </p>
         </div>
       </div>
       <div className="footer">Q&A Questions taken from the Google translated <a href="http://goosehouse.jp/profile/" target="_blank">Goose House website</a> and talked about on <Link to="/#32">this episode</Link></div>
