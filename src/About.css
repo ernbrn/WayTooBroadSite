@@ -15,6 +15,7 @@
 
 .container {
   max-width: 1000px;
+  margin-top: 2rem;
 }
 
 .pic {
@@ -32,13 +33,13 @@
   max-width: 1100px;
 }
 
-.aboutWTBContainer {
-  margin-top: 3rem;
+.aboutWTB {
+  margin-top: 2rem;
 }
 
 /* large screens */
 @media (min-width: 768px) {
-  .aboutWTBContainer {
+  .aboutWTB {
     align-items: center;
     display: flex;
     flex-direction: column;

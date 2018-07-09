@@ -17,25 +17,7 @@ export default function About() {
       </header>
       <Subheader text='A new era that spreads each small wing and can not be reached with one small wing' />
       <Nav />
-      <div className="bio">
-        <div className="container">
-          <div className="bio__section">
-            <div><img className="pic" src={hannah} /></div>
-            <QAndA answers={hannahAnswers} />
-          </div>
-          <div className="bio__section">
-            <div><img className="pic" src={ben} /></div>
-            <QAndA answers={benAnswers} />
-          </div>
-          <div className="bio__section">
-            <div><img className="pic" src={erin} /></div>
-            <QAndA answers={erinAnswers} />
-          </div>
-
-        </div>
-      </div>
-      <hr />
-      <div className="aboutWTBContainer">
+      <div className="aboutWTB">
         <h2><b>WHAT IS WAY TOO BROAD?</b></h2>
         <div className="whatIsWTB">
           <p>
@@ -56,6 +38,24 @@ export default function About() {
             So they decided that instead of saving up all of their fun new discoveries for when they saw each other, they would meet once a week and TELL THE WORLD about all of
             their interests, even the weird ones they don’t even remember they talked about, like, 2 weeks later. And now that’s what they do and they also made a website for it!
           </p>
+        </div>
+      </div>
+      <div className="bio">
+        <h2><b>WHO IS WAY TOO BROAD?</b></h2>
+        <div className="container">
+          <div className="bio__section">
+            <div><img className="pic" src={hannah} /></div>
+            <QAndA answers={hannahAnswers} />
+          </div>
+          <div className="bio__section">
+            <div><img className="pic" src={ben} /></div>
+            <QAndA answers={benAnswers} />
+          </div>
+          <div className="bio__section">
+            <div><img className="pic" src={erin} /></div>
+            <QAndA answers={erinAnswers} />
+          </div>
+
         </div>
       </div>
       <div className="footer">Q&A Questions taken from the Google translated <a href="http://goosehouse.jp/profile/" target="_blank">Goose House website</a> and talked about on <Link to="/#32">this episode</Link></div>
