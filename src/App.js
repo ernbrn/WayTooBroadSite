@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    parser.parseURL('http://waytoobroad.libsyn.com/rss', (_err, feed) => {
+    parser.parseURL('https://waytoobroad.libsyn.com/rss', (_err, feed) => {
       this.setState({ episodes: feed.feed.entries });
     });
   }
