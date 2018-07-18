@@ -44,15 +44,24 @@ export default function About() {
         <h2><b>WHO IS WAY TOO BROAD?</b></h2>
         <div className="container">
           <div className="bio__section">
-            <div><img className="pic" src={hannah} /></div>
+            <div>
+              <img className="pic" src={hannah} />
+              <div className="twitter"><a href={`https://twitter.com/${hannahAnswers.twitter}`} target="_blank">@{hannahAnswers.twitter}</a></div>
+            </div>
             <QAndA answers={hannahAnswers} />
           </div>
           <div className="bio__section">
-            <div><img className="pic" src={ben} /></div>
+            <div>
+              <img className="pic" src={ben} />
+              <div className="twitter"><a href={`https://twitter.com/${benAnswers.twitter}`} target="_blank">@{benAnswers.twitter}</a></div>
+            </div>
             <QAndA answers={benAnswers} />
           </div>
           <div className="bio__section">
-            <div><img className="pic" src={erin} /></div>
+            <div>
+              <img className="pic" src={erin} />
+              <div className="twitter"><a href={`https://twitter.com/${erinAnswers.twitter}`} target="_blank">@{erinAnswers.twitter}</a></div>
+            </div>
             <QAndA answers={erinAnswers} />
           </div>
 
@@ -65,6 +74,7 @@ export default function About() {
 
 const hannahAnswers = {
   person: 'HANNAH',
+  twitter: 'hanthropology',
   instruments: 'French horn, trumpet, bad piano',
   musicians: 'Janelle Monáe, Guster, Erin Brown',
   movie: 'I saw Ladybird recently, that was pretty good',
@@ -79,6 +89,7 @@ const hannahAnswers = {
 
 const benAnswers = {
   person: 'BEN',
+  twitter: 'nediscogreg',
   instruments: 'Guitar, piano, formerly french horn and trumpet',
   musicians: 'Ben Folds, Guster, Lin-Manuel Miranda',
   movie: 'MY important movie Lord of the Rings: Return of the King',
@@ -93,6 +104,7 @@ const benAnswers = {
 
 const erinAnswers = {
   person: 'ERIN',
+  twitter: 'ernbrn',
   instruments: 'Guitar, piano, vocables',
   musicians: 'I\'ve influenced a lot of musicians, but if I have to choose who I\'ve influenced the most I\'d say probably Janelle Monáe or Taylor Swift',
   movie: 'Meet Joe Black and My Big Fat Greek Wedding. There was a summer that Hannah and I watched these fine films OVER AND OVER AND OVER.',
