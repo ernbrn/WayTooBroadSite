@@ -3,6 +3,7 @@ import Episode from './Episode';
 import Nav from './Nav';
 import Header from './Header';
 import Subheader from './Subheader';
+import Loader from 'react-loader-spinner';
 
 class Episodes extends Component {
   constructor(props) {
@@ -24,9 +25,16 @@ class Episodes extends Component {
         <Subheader text="A place for friends to talk about things that they're really really ridiculously excited about" />
         <Nav />
         {
-          episodes && episodes.map(episode => (
+          episodes.length ? episodes.map(episode => (
             episode.enclosure && <Episode key={episode.guid} episode={episode} />
-          ))
+          )) :
+            <div>
+              <Loader
+                type="Audio"
+                color="#a640e1"
+              />
+              Loading episodes!
+          </div>
         }
       </div>
     );
