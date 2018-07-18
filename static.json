@@ -2,7 +2,8 @@
   "https_only": true,
   "headers": {
     "/**": {
-      "Strict-Transport-Security": "max-age=7776000"
+      "Strict-Transport-Security": "max-age=7776000",
+      "Cache-Control": "no-store, no-cache"
     }
   },
   "root": "build/",
