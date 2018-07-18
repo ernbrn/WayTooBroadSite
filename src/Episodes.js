@@ -17,6 +17,14 @@ class Episodes extends Component {
   render() {
     const { episodes } = this.props;
 
+    const colors = [
+      "D2A3EE",
+      "A2E9FE",
+      "FBA2A6",
+      "D0E5A0",
+      "FEE097"
+    ];
+
     return (
       <div>
         <header>
@@ -31,7 +39,7 @@ class Episodes extends Component {
             <div>
               <Loader
                 type="Audio"
-                color="#a640e1"
+                color={`#${colors[Math.floor(Math.random() * colors.length)]}`}
               />
               Loading episodes!
           </div>
