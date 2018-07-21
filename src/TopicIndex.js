@@ -58,7 +58,7 @@ export default class TopicIndex extends Component {
                   {
                     topicsByLetter[key].map((topicOb, index) => (
                       <div className="topics__item">
-                        <Link key={index} className="link" to={`/#${topicOb.episodeNumber}`}>{topicOb.topic}</Link>
+                        <Link key={index} className="topic-link" to={`/#${topicOb.episodeNumber}`}>{topicOb.topic}</Link>
                       </div>
                     ))
                   }

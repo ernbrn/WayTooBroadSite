@@ -4,6 +4,7 @@ import parser from 'rss-parser-browser';
 import Episodes from './Episodes';
 import About from './About';
 import TopicIndex from './TopicIndex';
+import Contact from './Contact';
 import './App.css';
 
 class App extends Component {
@@ -30,6 +31,7 @@ class App extends Component {
         <Route exact path='/index' render={_props => (
           <TopicIndex episodes={this.state.episodes} />
         )} />
+        <Route exact path='/contact' component={Contact} />
       </Switch>
     )
   }

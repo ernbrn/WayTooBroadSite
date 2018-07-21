@@ -1,0 +1,46 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 40px;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.contact-link {
+  border-radius: 8px;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.contact-icon {
+  margin-right: 0.75rem;
+}
+
+/* large screens */
+@media (min-width: 768px) {
+  .links {
+    flex-direction: row;
+    max-width: 750px;
+  }
+}
+
+.icon--green {
+  color: rgba(160, 204, 51, 0.5);
+}
+
+.icon--purple {
+  color: rgba(166, 64, 225, 0.5);
+}
+
+.icon--red {
+  color: rgba(251, 67, 73, 0.5);
+}
+
+.icon--blue {
+  color: rgba(59, 210, 255, 0.5);
+}
+
+.icon--yellow {
+  color: rgba(254, 195, 10, 0.5);
+}

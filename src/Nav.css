@@ -47,8 +47,16 @@
   background-color: rgba(166, 64, 225, 0.5);
 }
 
-.nav-link__button--red{
+.nav-link__button--red {
   background-color: rgba(251, 67, 73, 0.5);
+}
+
+.nav-link__button--blue {
+  background-color: rgba(59, 210, 255, 0.5);
+}
+
+.nav-link__button--yellow {
+  background-color: rgba(254, 195, 10, 0.5);
 }
 
 .nav-link--active {

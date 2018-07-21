@@ -20,6 +20,11 @@ export default function Nav() {
           Topic Index
         </div>
       </NavLink>
+      <NavLink exact activeClassName="nav-link--active" className="nav-link" to="/contact">
+        <div className="nav-link__button nav-link__button--yellow">
+          Sosh Meeds
+        </div>
+      </NavLink>
     </div>
   )
 }

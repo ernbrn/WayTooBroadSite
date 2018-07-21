@@ -1,8 +1,9 @@
 /* small screens */
-.link {
-  color: rgb(83, 83, 83);
+.topic-link {
+  text-decoration: underline;
 }
-.link:visited {
+
+.topic-link:visited {
   color: rgb(83, 83, 83);
 }
 
