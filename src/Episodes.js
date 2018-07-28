@@ -37,10 +37,11 @@ class Episodes extends Component {
           Other ways to listen:
           <div className="episode-link-container">
             <a className="episode-link link" href="https://itunes.apple.com/us/podcast/way-too-broad/id1278674242?mt=2" target="_blank"><i className="episode-icon fab fa-itunes"></i>iTunes</a>
-            <a className="episode-link link" href="https://play.google.com/music/listen?u=0#/ps/Imivonektqfwtuaiq57lxzvnsla" target="_blank"><i className="episode-icon fab fa-google-play"></i>Google play</a>
+            <a className="episode-link link" href="https://play.google.com/music/m/Imivonektqfwtuaiq57lxzvnsla?t=Way_Too_Broad" target="_blank"><i className="episode-icon fab fa-google-play"></i>Google play</a>
             <a className="episode-link link" href="https://open.spotify.com/show/4YYnvldkosN3eaKrVnRK1o?si=xLxsVrWnSNC79cot-BSA7Q" target="_blank"><i className="episode-icon fab fa-spotify"></i>Spotify</a>
-            <a className="episode-link link" href="https://www.stitcher.com/podcast/podfriends/way-too-broad" target="_blank"><i className="episode-icon fas fa-microphone"></i>Stitcher</a>
+            <a className="episode-link link" href="https://www.stitcher.com/podcast/podfriends/way-too-broad" target="_blank"><i className="episode-icon fas fa-podcast"></i>Stitcher</a>
             <a className="episode-link link" href="https://radiopublic.com/way-too-broad-WxV4eV" target="_blank"><i className="episode-icon fas fa-broadcast-tower"></i>Radio Public</a>
+            <a className="episode-link link" href="https://podknife.com/podcasts/7035" target="_blank"><i className="episode-icon fas fa-microphone"></i>Pod Knife</a>
           </div>
         </div>
         {

@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Nav.css';
+import cupLogo from './cuplogo.svg';
 
 export default function Nav() {
   return (
@@ -25,6 +26,11 @@ export default function Nav() {
           Sosh Meeds
         </div>
       </NavLink>
+      <a className="supportLink" target="_blank" href="http://ko-fi.com/waytoobroad">
+        <div className="nav-link__button nav-link__button--blue">
+          <img src={cupLogo} className="coffeeLogo" /> Support us!
+        </div>
+      </a>
     </div>
   )
 }
