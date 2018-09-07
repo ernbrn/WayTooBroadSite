@@ -25,6 +25,10 @@ export default function Contact() {
           <i className="contact-icon fab fa-twitter icon--blue"></i>
           Twitter
         </a>
+        <a className="contact-link" href="tel:7743260420" target="_blank">
+          <i className="contact-icon fas fa-phone icon--green"></i>
+          Call Us!
+        </a>
       </div>
     </div>
   )

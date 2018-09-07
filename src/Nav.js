@@ -23,7 +23,7 @@ export default function Nav() {
       </NavLink>
       <NavLink exact activeClassName="nav-link--active" className="nav-link" to="/contact">
         <div className="nav-link__button nav-link__button--yellow">
-          Sosh Meeds
+          Contact
         </div>
       </NavLink>
       <a className="supportLink" target="_blank" href="http://ko-fi.com/waytoobroad">
