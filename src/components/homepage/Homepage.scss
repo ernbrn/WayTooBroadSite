@@ -1,0 +1,34 @@
+.hompepage-logo {
+  margin-top: 0;
+}
+
+.episode-icon {
+  margin-right: 0.5rem;
+}
+
+.listen-link-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 20px;
+  padding: 4px;
+}
+
+/* large screens */
+@media (min-width: 768px) {
+  .homepage-logo {
+    margin-top: -35px;
+  }
+
+  .listen-link-container {
+    display: block;
+  }
+}
+
+.listen-link {
+  margin-right: 1rem;
+  text-decoration: none;
+}
+.episode-icon {
+  margin-right: 0.5rem;
+}

@@ -1,8 +1,8 @@
 import React from 'react';
-import Nav from './Nav';
-import Header from './Header';
-import Subheader from './Subheader';
-import './Contact.css';
+import Nav from 'components/nav/Nav';
+import Header from 'components/header/Header';
+import Subheader from 'components/header/subheader/Subheader';
+import './Contact.scss';
 
 export default function Contact() {
   return (
