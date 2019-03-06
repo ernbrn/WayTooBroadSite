@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router'
 import parser from 'rss-parser-browser';
 import Episodes from 'components/episodes/Episodes';
 import About from 'components/about/About';
-import TopicIndex from '../TopicIndex';
+import TopicIndex from 'components/topic-index/TopicIndex';
 import Contact from './contact/Contact';
 import Homepage from './homepage/Homepage';
 import './App.scss';

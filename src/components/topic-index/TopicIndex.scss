@@ -1,3 +1,5 @@
+@import 'src/styles/colors';
+
 /* small screens */
 .topic-link {
   text-decoration: underline;
@@ -46,7 +48,7 @@
 }
 
 .sort{
-  background-color: rgba(254, 195, 10, 0.5);
+  background-color: $red;
   font-size: 32px;
   margin: 3rem 0;
   padding: 1rem 0;
@@ -59,11 +61,11 @@
 }
 
 .order__button:hover {
-  color: rgba(59, 210, 255, 0.5);
+  color: $purple;
 }
 
 .order__button--selected {
-  color: rgba(145, 228, 255);
+  color: $blue;
 }
 
 /* large screens */

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import Nav from './components/nav/Nav';
-import Header from './components/header/Header';
-import Subheader from './components/header/subheader/Subheader';
+import Nav from 'components/nav/Nav';
+import Header from 'components/header/Header';
+import Subheader from 'components/header/subheader/Subheader';
 import { orderedTopicsByLetter, topicCount } from './topicHelper';
-import './TopicIndex.css';
+import './TopicIndex.scss';
 
 export default class TopicIndex extends Component {
   constructor(props) {

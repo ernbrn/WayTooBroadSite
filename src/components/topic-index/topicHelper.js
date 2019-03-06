@@ -1,4 +1,4 @@
-import { getEpisodeNumberFromTitle, getFirstLetter } from './titleHelper';
+import { getEpisodeNumberFromTitle, getFirstLetter } from '../../titleHelper';
 
 export function orderedTopicsWithEpisodes(episodes, order = 'asc') {
   const ob = {};
