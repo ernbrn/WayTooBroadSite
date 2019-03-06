@@ -1,3 +1,5 @@
+@import 'src/styles/colors';
+
 .audio-player {
   margin-bottom: 2rem;
   width: 240px;
@@ -13,6 +15,9 @@
 }
 
 @media (min-width: 768px) {
+  .logo {
+    margin-top: -35px;
+  }
   .episode {
     max-width: 675px;
   }
@@ -36,23 +41,23 @@
 }
 
 .episode:nth-last-child(5n-7) {
-  background-color: rgba(160, 204, 51, 0.5);
+  background-color: $green;
 }
 
 .episode:nth-last-child(5n-6) {
-  background-color: rgba(254, 195, 10, 0.5);
+  background-color: $orange;
 }
 
 .episode:nth-last-child(5n-5) {
-  background-color: rgba(59, 210, 255, 0.5);
+  background-color: $blue;
 }
 
 .episode:nth-last-child(5n-4) {
-  background-color: rgba(251, 67, 73, 0.5);
+  background-color: $red;
 }
 
 .episode:nth-last-child(5n-3) {
-  background-color: rgba(166, 64, 225, 0.5);
+  background-color: $purple;
 }
 
 .episode__title {

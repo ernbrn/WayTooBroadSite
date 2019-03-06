@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "node-sass": "^4.11.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-loader-spinner": "^2.1.0",
     "react-router-dom": "^4.3.1",
     "react-router-hash-link": "^1.2.0",
-    "react-scripts": "1.1.4",
+    "react-scripts": "2.0.3",
     "rss-parser-browser": "https://github.com/ernbrn/rss-parser-browser"
   },
   "scripts": {
@@ -16,5 +17,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

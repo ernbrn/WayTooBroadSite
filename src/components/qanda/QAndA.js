@@ -1,5 +1,5 @@
 import React from 'react';
-import './QAndA.css';
+import './QAndA.scss';
 
 export default function QAndA({ answers }) {
   return (

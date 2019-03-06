@@ -1,13 +1,13 @@
 import React from 'react';
-import Nav from './Nav';
+import Nav from 'components/nav/Nav';
 import { HashLink as Link } from 'react-router-hash-link';
+import QAndA from 'components/qanda/QAndA';
+import Header from 'components/header/Header';
+import Subheader from 'components/header/subheader/Subheader';
 import ben from './ben.png';
 import erin from './erin.PNG';
 import hannah from './hannah.jpg';
-import QAndA from './QAndA';
-import Header from './Header';
-import Subheader from './Subheader';
-import './About.css';
+import './About.scss';
 
 export default function About() {
   return (

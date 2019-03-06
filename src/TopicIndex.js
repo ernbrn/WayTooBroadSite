@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import Nav from './Nav';
-import Header from './Header';
-import Subheader from './Subheader';
+import Nav from './components/nav/Nav';
+import Header from './components/header/Header';
+import Subheader from './components/header/subheader/Subheader';
 import { orderedTopicsByLetter, topicCount } from './topicHelper';
 import './TopicIndex.css';
 
@@ -58,7 +58,7 @@ export default class TopicIndex extends Component {
                   {
                     topicsByLetter[key].map((topicOb, index) => (
                       <div className="topics__item">
-                        <Link key={index} className="topic-link" to={`/#${topicOb.episodeNumber}`}>{topicOb.topic}</Link>
+                        <Link key={index} className="topic-link" to={`/episodes#${topicOb.episodeNumber}`}>{topicOb.topic}</Link>
                       </div>
                     ))
                   }

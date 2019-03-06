@@ -1,3 +1,5 @@
+@import 'src/styles/colors';
+
 /* small screens */
 .nav {
   display: flex;
@@ -40,23 +42,23 @@
 }
 
 .nav-link__button--green {
-  background-color: rgba(160, 204, 51, 0.5);
+  background-color: $green;
 }
 
 .nav-link__button--purple {
-  background-color: rgba(166, 64, 225, 0.5);
+  background-color: $purple;
 }
 
 .nav-link__button--red {
-  background-color: rgba(251, 67, 73, 0.5);
+  background-color: $red;
 }
 
 .nav-link__button--blue {
-  background-color: rgba(59, 210, 255, 0.5);
+  background-color: $blue;
 }
 
 .nav-link__button--yellow {
-  background-color: rgba(254, 195, 10, 0.5);
+  background-color: $orange;
 }
 
 .nav-link--active {

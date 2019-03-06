@@ -1,3 +1,5 @@
+@import 'src/styles/colors';
+
 .links {
   display: flex;
   flex-direction: column;
@@ -21,26 +23,26 @@
 @media (min-width: 768px) {
   .links {
     flex-direction: row;
-    max-width: 750px;
+    max-width: 932px;
   }
 }
 
 .icon--green {
-  color: rgba(160, 204, 51, 0.5);
+  color: $green;
 }
 
 .icon--purple {
-  color: rgba(166, 64, 225, 0.5);
+  color: $purple;
 }
 
 .icon--red {
-  color: rgba(251, 67, 73, 0.5);
+  color: $red;
 }
 
 .icon--blue {
-  color: rgba(59, 210, 255, 0.5);
+  color: $blue;
 }
 
 .icon--yellow {
-  color: rgba(254, 195, 10, 0.5);
+  color: $orange;
 }
