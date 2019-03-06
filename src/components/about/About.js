@@ -67,7 +67,7 @@ export default function About() {
 
         </div>
       </div>
-      <div className="footer">Q&A Questions taken from the Google translated <a href="http://goosehouse.jp/profile/" target="_blank">Goose House website</a> and talked about on <Link to="/#32">this episode</Link></div>
+      <div className="footer">Q&A Questions taken from the Google translated <a href="http://goosehouse.jp/profile/" target="_blank">Goose House website</a> and talked about on <Link to="/episodes#32">this episode</Link></div>
     </div>
   )
 }
