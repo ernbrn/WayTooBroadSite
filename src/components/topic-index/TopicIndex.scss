@@ -29,11 +29,41 @@
   margin-top: 2rem;
 }
 
+.order-view {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.order-view-link {
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+.order-view__button--selected {
+  background-color: $red;
+}
+
 .alphabet-search {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 2rem 1rem;
+}
+
+.chronological-search {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.chrono-months {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 .alphabet-search__link {
@@ -90,5 +120,9 @@
 
   .topics {
     margin-left: 45%;
+  }
+
+  .chronological-search {
+
   }
 }
