@@ -43,7 +43,7 @@ class Homepage extends Component {
             </a>
             <a className="contact-link" href="tel:7743260420" target="_blank">
               <i className="contact-icon fas fa-phone icon--green"></i>
-              Call Us!
+              Call Us! (DO NOT DIAL BLAZE IT)
             </a>
           </div>
         </div>
