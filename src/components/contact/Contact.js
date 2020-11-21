@@ -10,7 +10,7 @@ export default function Contact() {
       <header>
         <Header text="Sosh Meeds" />
       </header>
-      <Subheader text="If these don't work try yelling real loud" />
+      <Subheader text="DO NOT DIAL BLAZE IT" />
       <Nav />
       <div className="links">
         <a className="contact-link" href="mailto:waytoobroad@gmail.com">
