@@ -1,6 +1,9 @@
 {
   "name": "way-too-broad",
   "version": "0.1.0",
+  "engines": {
+    "node": "11.x"
+  },
   "private": true,
   "dependencies": {
     "node-sass": "^4.11.0",
